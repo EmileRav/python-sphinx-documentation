@@ -22,7 +22,7 @@ Template to document code with sphinx
 
 - ```cd docs```
 - ```make html```
-- alternatives ```make help```
+- Alternatives ```make help```
 
 ## Add new python files
 

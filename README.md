@@ -22,11 +22,10 @@ Template to document code with sphinx
 
 - ```cd docs```
 - ```make html```
-  - alternatives ```make help```
+- alternatives ```make help```
 
 ## Add new python files
 
 1. Add files in package folder ```packagename``` (or the new name)
 2. Add links to the python files in ```docs/source/```
 3. Make [Documentation](#create-documentation) (see above)
-

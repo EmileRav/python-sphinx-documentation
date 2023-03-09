@@ -12,18 +12,23 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'packagename'
-DESCRIPTION = 'Example project for sphinx python.'
-URL = 'https://github.com/jarneamerlinck/python-sphinx-documentation'
-EMAIL = 'jarneamerlinck@gmail.com'
-AUTHOR = 'Jarne Amerlinck'
+
+NAME = 'xtopia.backend'
+DESCRIPTION = 'Module for the backend.'
+URL = 'https://github.com/AbinetVives/xtopia-bionic-assistant-backend'
+EMAIL = 'robot.xtopia@gmail.com'
+AUTHOR = 'Jarne Amerlinck, Isolde Boussauw, Michel Dekiere, Emiel Feryn, Emile Ravelingeen'
 REQUIRES_PYTHON = '>=3.9.2'
 VERSION = '0.1.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'Sphinx==6.1.3', 'sphinx-markdown-builder==0.5.5'
-]
+    'Sphinx==6.1.3', 'sphinx-markdown-builder==0.5.5', 'SpeechRecognition',
+    'pywhatkit', 'pyjokes', 'openai', 'python-dotenv', 'wikipedia', 'pyttsx3', 
+    'pyaudio', 'ipython', 'ipykernel','numpy', 'pandas', 'matplotlib',
+    'pip', 'pytest', 'flask', 'gtts', 'editdistance', 'vosk', 'wave', 
+    'chatterbot', 'pvporcupine'
+    ]
 
 
 

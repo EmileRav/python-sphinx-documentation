@@ -3,7 +3,7 @@ name: Python Package using Conda
 on:
   push:
     paths:
-    - 'packagename/**'
+    - 'xtopia.backend/**'
     - '*.py'
     - '*.yml'
     - 'docs/source/**'
@@ -11,7 +11,7 @@ on:
 
   pull_request:
     paths: 
-    - 'packagename/**'
+    - 'xtopia.backend/**'
     - '*.py'
     - '*.yml'
     - 'docs/source/**'

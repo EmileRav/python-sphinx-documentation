@@ -23,11 +23,11 @@ VERSION = '0.1.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'Sphinx==6.1.3', 'sphinx-markdown-builder==0.5.5', 'SpeechRecognition',
+    'Sphinx==6.1.3', 'sphinx-markdown-builder==0.5.5', 'SpeechRecognition==3.8.1',
     'pywhatkit', 'pyjokes', 'openai', 'python-dotenv', 'wikipedia', 'pyttsx3', 
-    'pyaudio', 'ipython', 'ipykernel','numpy', 'pandas', 'matplotlib',
-    'pip', 'pytest', 'flask', 'gtts', 'editdistance', 'vosk', 'wave', 
-    'chatterbot', 'pvporcupine'
+    'PyAudio==0.2.11','numpy', 'pandas', 'matplotlib',
+    'pip', 'pytest==7.2.0', 'Flask', 'gTTS==2.3.0', 'editdistance==0.6.2', 'vosk==0.3.45', 
+    'ChatterBot==1.0.4', 'pvporcupine==2.1.4'
     ]
 
 
